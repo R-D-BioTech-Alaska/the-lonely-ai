@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\extensions-builtin",
+    "\\extensions-builtin\\LDSR",
+    "\\modules",
+    "\\modules\\api",
+    "\\modules\\hypernetworks",
+    "\\modules\\models",
+    "\\modules\\models\\diffusion",
+    "\\modules\\textual_inversion",
+    "\\scripts"
+  ],
+  "SelectedNode": "\\modules\\sd_models_config.py",
+  "PreviewInSolutionExplorer": false
+}
