@@ -285,7 +285,7 @@ def prepare_environment():
 
     os.makedirs(os.path.join(script_path, dir_repos), exist_ok=True)
 
-    git_clone(the_lonely_ai_repo, repo_dir('the-lonely-ai-stability-ai'), "The Lonely AI", the_lonely_ai_commit_hash)
+    git_clone(the_lonely_ai_repo, repo_dir('the-lonely-ai'), "The Lonely AI", the_lonely_ai_commit_hash)
     git_clone(taming_transformers_repo, repo_dir('taming-transformers'), "Taming Transformers", taming_transformers_commit_hash)
     git_clone(k_diffusion_repo, repo_dir('k-diffusion'), "K-diffusion", k_diffusion_commit_hash)
     git_clone(codeformer_repo, repo_dir('CodeFormer'), "CodeFormer", codeformer_commit_hash)
