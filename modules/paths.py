@@ -10,7 +10,7 @@ sys.path.insert(0, script_path)
 
 # search for directory of the lonely ai in following places
 sd_path = None
-possible_sd_paths = [os.path.join(script_path, 'repositories/the-lonely-ai/'), '.', os.path.dirname(script_path)]
+possible_sd_paths = [os.path.join(script_path, 'lonely-ai/'), '.', os.path.dirname(script_path)]
 for possible_sd_path in possible_sd_paths:
     if os.path.exists(os.path.join(possible_sd_path, 'ldm/models/diffusion/ddpm.py')):
         sd_path = os.path.abspath(possible_sd_path)
@@ -20,10 +20,10 @@ assert sd_path is not None, f"Couldn't find The Lonely AI in any of: {possible_s
 
 path_dirs = [
     (sd_path, 'ldm', 'The Lonely AI', []),
-    (os.path.join(sd_path, '/the-lonely-ai/repositories/taming-transformers'), 'taming', 'Taming Transformers', []),
-    (os.path.join(sd_path, '/the-lonely-ai/CodeFormer'), 'inference_codeformer.py', 'CodeFormer', []),
-    (os.path.join(sd_path, '/the-lonely-ai/BLIP'), 'models/blip.py', 'BLIP', []),
-    (os.path.join(sd_path, '/the-lonely-ai/k-diffusion'), 'k_diffusion/sampling.py', 'k_diffusion', ["atstart"]),
+    (os.path.join(sd_path, '../repositories/taming-transformers'), 'taming', 'Taming Transformers', []),
+    (os.path.join(sd_path, '../repositories/CodeFormer'), 'inference_codeformer.py', 'CodeFormer', []),
+    (os.path.join(sd_path, '../repositories/BLIP'), 'models/blip.py', 'BLIP', []),
+    (os.path.join(sd_path, '../repositories/k-diffusion'), 'k_diffusion/sampling.py', 'k_diffusion', ["atstart"]),
 ]
 
 paths = {}
