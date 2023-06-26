@@ -147,7 +147,7 @@ sampler = initialize_model(sys.argv[1], sys.argv[2])
 block = gr.Blocks().queue()
 with block:
     with gr.Row():
-        gr.Markdown("## Stable Diffusion Depth2Img")
+        gr.Markdown("## The Lonely AI Depth2Img")
 
     with gr.Row():
         with gr.Column():
