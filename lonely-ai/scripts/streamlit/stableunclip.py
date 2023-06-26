@@ -197,11 +197,11 @@ def init(version="Stable unCLIP-L", load_karlo_prior=False):
     state = dict()
     if not "model" in state:
         if version == "Stable unCLIP-L":
-            config = "configs/stable-diffusion/v2-1-stable-unclip-l-inference.yaml"
+            config = "configs/the-lonely-ai/v2-1-stable-unclip-l-inference.yaml"
             ckpt = "checkpoints/sd21-unclip-l.ckpt"
 
         elif version == "Stable unOpenCLIP-H":
-            config = "configs/stable-diffusion/v2-1-stable-unclip-h-inference.yaml"
+            config = "configs/the-lonely-ai/v2-1-stable-unclip-h-inference.yaml"
             ckpt = "checkpoints/sd21-unclip-h.ckpt"
 
         elif version == "Full Karlo":

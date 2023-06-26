@@ -114,7 +114,7 @@ def paint(sampler, image, prompt, seed, scale, h, w, steps, num_samples=1, callb
 
 
 def run():
-    st.title("Stable Diffusion Upscaling")
+    st.title("The Lonely AI Upscaling")
     # run via streamlit run scripts/demo/depth2img.py <path-tp-config> <path-to-ckpt>
     sampler = initialize_model(sys.argv[1], sys.argv[2])
 

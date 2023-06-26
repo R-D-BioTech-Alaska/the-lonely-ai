@@ -125,7 +125,7 @@ def inpaint(sampler, image, mask, prompt, seed, scale, ddim_steps, num_samples=1
 
 
 def run():
-    st.title("Stable Diffusion Inpainting")
+    st.title("The Lonely AI Inpainting")
 
     sampler = initialize_model(sys.argv[1], sys.argv[2])
 

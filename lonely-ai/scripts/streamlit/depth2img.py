@@ -106,7 +106,7 @@ def paint(sampler, image, prompt, t_enc, seed, scale, num_samples=1, callback=No
 
 
 def run():
-    st.title("Stable Diffusion Depth2Img")
+    st.title("The Lonely AI Depth2Img")
     # run via streamlit run scripts/demo/depth2img.py <path-tp-config> <path-to-ckpt>
     sampler = initialize_model(sys.argv[1], sys.argv[2])
 
