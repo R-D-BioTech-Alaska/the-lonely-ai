@@ -154,7 +154,7 @@ sampler = initialize_model(sys.argv[1], sys.argv[2])
 block = gr.Blocks().queue()
 with block:
     with gr.Row():
-        gr.Markdown("## Stable Diffusion Upscaling")
+        gr.Markdown("## The Lonely AI Upscaling")
 
     with gr.Row():
         with gr.Column():
