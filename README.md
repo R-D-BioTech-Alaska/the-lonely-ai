@@ -1,4 +1,5 @@
 # The Lonely AI web UI
+Join our Discord! "https://discord.gg/cWN3gyuZ"
 ![](screenshot.png)
 
 
