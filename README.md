@@ -2,7 +2,7 @@
 
 ![Lonely AI Screenshot](screenshot.png)
 
-Join our [Discord](https://discord.gg/cWN3gyuZ) to connect with other creatives and enthusiasts!
+Join our Discord! "https://discord.gg/cWN3gyuZ"
 
 ## About The Lonely AI
 
