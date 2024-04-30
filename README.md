@@ -1,78 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>The Lonely AI Web UI</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    h1 {
-      text-align: center;
-      font-size: 2em;
-      color: #333;
-    }
-    p {
-      font-size: 1.1em;
-    }
-    .image {
-      text-align: center;
-      margin: 20px 0;
-    }
-    .image img {
-      width: 100%;
-      max-width: 600px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-    }
-    .discord-link {
-      text-align: center;
-      margin: 10px 0;
-      font-size: 1.2em;
-    }
-    .discord-link a {
-      text-decoration: none;
-      color: #5865F2;
-      font-weight: bold;
-    }
-    .features ul {
-      padding-left: 20px;
-    }
-    .update {
-      background-color: #f1f1f1;
-      padding: 10px;
-      border-left: 4px solid #4caf50;
-      margin: 10px 0;
-    }
-  </style>
-</head>
-<body>
+# The Lonely AI Web UI
 
-<div class="container">
-  <h1>The Lonely AI Web UI</h1>
+![Lonely AI Screenshot](screenshot.png)
 
-  <div class="discord-link">
-    Join our Discord: <a href="https://discord.gg/cWN3gyuZ" target="_blank">Connect Now</a>
-  </div>
+Join our [Discord](https://discord.gg/cWN3gyuZ) to connect with other creatives and enthusiasts!
 
-  <div class="image">
-    <img src="screenshot.png" alt="Lonely AI Screenshot">
-  </div>
+## About The Lonely AI
 
-  <p>Designed using Stable Diffusion, Midjourney, BrainAI, and ChatGPT.</p>
+Designed using Stablediffusion/Midjourney/BrainAI.
 
-  <p>The Lonely AI is an open-source image creator, similar to Stable Diffusion and Midjourney, but with a highly improved workflow and unlimited control.</p>
 
-  <p>The Lonely AI can be incorporated with AI (currently incorporated with BrainAI) to improve visual output and control.</p>
+The Lonely AI is an open source image creator similar to stable diffusion and midjourney however workflow is highly improved and open control is not limited. 
 
-  <div class="update">
-    <strong>Update 6/24:</strong> Re-uploaded the whole file system with increased value ranges for specific outputs. Fixed width/height issues with GPU cores.
-  </div>
-</div>
+The Lonely AI can be incorporated with AI (currently incorporated with BrainAI) to improve visual output and control.
 
-</body>
-</html>
+Image generation using the lonely ai tensors creates unmatched realism, you cant tell the difference.
+
+***Update 6/24/23
+  ***Re-uploaded whole file system with increase value ranges for specific outputs. Fixed width/height issues with gpu cores.
+
+  ***Update 4/29/24
+    ***Updating old files. Integrating into discord and BrainAI.
